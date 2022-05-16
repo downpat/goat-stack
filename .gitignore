@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore Dockerfiles, handled by AWS ECR
+Dockerfile*
+
+# Vim swap files
+*.sw*
