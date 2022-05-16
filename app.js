@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const http = require('node:http')
 
 const hostname = '0.0.0.0'

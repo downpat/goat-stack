@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": {
+    "runserver": "./app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/downpat/goat-stack.git"
