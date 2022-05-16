@@ -6,9 +6,9 @@ const hostname = '0.0.0.0'
 const port = 8080
 
 const server = http.createServer((request, response) => {
-  res.statusCode = 200
-  res.setHeader('Content-Type', 'text/plain')
-  res.end('Here I am. Rock you like a hurricane!')
+  response.statusCode = 200
+  response.setHeader('Content-Type', 'text/plain')
+  response.end('Here I am. Rock you like a hurricane!')
 })
 
 server.listen(port, hostname, () => {
