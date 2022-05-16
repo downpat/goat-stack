@@ -1,0 +1,28 @@
+{
+  "name": "goat-stack",
+  "version": "0.0.1",
+  "description": "MERN practice project for ranking NBA players",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downpat/goat-stack.git"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "react",
+    "node",
+    "MERN",
+    "nba",
+    "basketball"
+  ],
+  "author": "Patrick Dobson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/downpat/goat-stack/issues"
+  },
+  "homepage": "https://github.com/downpat/goat-stack#readme"
+}
